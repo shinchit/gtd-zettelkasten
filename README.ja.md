@@ -131,7 +131,7 @@ author: "著者名"
 
 ## 謝辞
 
-本プラグインは、Classmethod の shinchi.takahiro による記事「[「考える」から「判断する」へ、Claude Codeを中心に置いたタスク・ナレッジ管理](https://dev.classmethod.jp/articles/ai-driven-gtd-zettelkasten/)」に着想を得ています。Claude Code を活用した GTD + Zettelkasten の実践手法を詳しく解説した同記事が、このプラグインの基盤となりました。
+本プラグインは、Classmethod の [kinjo-shuya](https://dev.classmethod.jp/author/kinjo-shuya/) さんによる記事「[「考える」から「判断する」へ、Claude Codeを中心に置いたタスク・ナレッジ管理](https://dev.classmethod.jp/articles/ai-driven-gtd-zettelkasten/)」に着想を得ています。Claude Code を活用した GTD + Zettelkasten の実践手法を詳しく解説した同記事が、このプラグインの基盤となりました。
 
 ## ライセンス
 

@@ -96,7 +96,7 @@ your-vault/
 
 ## Acknowledgements
 
-This project was inspired by the article [「考える」から「判断する」へ、Claude Codeを中心に置いたタスク・ナレッジ管理](https://dev.classmethod.jp/articles/ai-driven-gtd-zettelkasten/) by shinchi.takahiro at Classmethod. The article describes building a GTD + Zettelkasten productivity system powered by Claude Code, which became the foundation for this plugin.
+This project was inspired by the article [「考える」から「判断する」へ、Claude Codeを中心に置いたタスク・ナレッジ管理](https://dev.classmethod.jp/articles/ai-driven-gtd-zettelkasten/) by [kinjo-shuya](https://dev.classmethod.jp/author/kinjo-shuya/) at Classmethod. The article describes building a GTD + Zettelkasten productivity system powered by Claude Code, which became the foundation for this plugin.
 
 ## License
 
