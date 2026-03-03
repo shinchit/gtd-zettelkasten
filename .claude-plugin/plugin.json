@@ -1,0 +1,13 @@
+{
+  "name": "gz",
+  "version": "0.1.0",
+  "description": "GTD + Zettelkasten productivity system for Claude Code",
+  "author": {
+    "name": "shinchi.takahiro"
+  },
+  "homepage": "https://github.com/shinchi-takahiro/gtd-zettelkasten",
+  "repository": "https://github.com/shinchi-takahiro/gtd-zettelkasten",
+  "license": "MIT",
+  "keywords": ["gtd", "zettelkasten", "productivity", "obsidian"],
+  "commands": "./commands/"
+}

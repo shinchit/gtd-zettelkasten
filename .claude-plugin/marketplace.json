@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gtd-zettelkasten",
+  "description": "GTD + Zettelkasten productivity system for Claude Code",
+  "owner": {
+    "name": "shinchi.takahiro"
+  },
+  "plugins": [
+    {
+      "name": "gz",
+      "description": "GTD + Zettelkasten productivity system — capture, process, plan, review, and build knowledge",
+      "version": "0.1.0",
+      "author": {
+        "name": "shinchi.takahiro"
+      },
+      "source": ".",
+      "category": "productivity"
+    }
+  ]
+}
