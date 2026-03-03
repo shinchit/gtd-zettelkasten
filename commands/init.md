@@ -62,6 +62,7 @@ templates/
    - カレンダーのメールアドレス
    - Slack 通知を有効にするか
    - GitHub の assignee 設定
+   - GitHub の対象リポジトリ（`owner/repo` 形式、複数可。未設定ならカレントリポジトリのみ）
 
 ### 5. .gitignore の更新
 

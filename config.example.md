@@ -18,3 +18,5 @@ Webhook URL should be set in `.env` as `SLACK_WEBHOOK_URL`.
 ## GitHub
 
 - assignee: @me
+- repos:
+  - owner/repo-name

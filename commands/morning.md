@@ -13,7 +13,7 @@ allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, WebFetch]
 
 - **Calendar セクション**: ツール名（gcalcli等）、ツールのフルパス、カレンダー名の一覧
 - **Slack セクション**: 通知の有効/無効
-- **GitHub セクション**: assignee 設定
+- **GitHub セクション**: assignee 設定、対象リポジトリ一覧
 
 `.claude/config.local.md` が存在しない場合:
 - 「個人設定ファイルが見つかりません。`/gz:init` でセットアップするか、手動で情報を入力してください。」と表示
@@ -52,11 +52,19 @@ allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, WebFetch]
 
 ### 3. GitHub確認
 
-`.claude/config.local.md` の GitHub セクションから assignee を読み取る（デフォルト: `@me`）。
+`.claude/config.local.md` の GitHub セクションから assignee とリポジトリ一覧を読み取る。
+
+- `assignee`: デフォルト `@me`
+- `repos`: 対象リポジトリの一覧（`owner/repo` 形式）。未設定の場合はカレントディレクトリのリポジトリのみ
 
 以下のコマンドでGitHub状況を取得:
 
 ```bash
+# repos が設定されている場合、各リポジトリに対して実行
+gh issue list --assignee <assignee> --state open --limit 10 --repo <owner/repo>
+gh pr list --author <assignee> --state open --limit 10 --repo <owner/repo>
+
+# repos が未設定の場合（カレントリポジトリ）
 gh issue list --assignee <assignee> --state open --limit 10
 gh pr list --author <assignee> --state open --limit 10
 ```
