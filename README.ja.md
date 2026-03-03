@@ -30,7 +30,7 @@ init コマンドで Vault を初期セットアップします:
 
 - **Calendar**: gcalcli のパスとカレンダー名（`/gz:morning` で使用）
 - **Slack**: 通知の有効/無効（Webhook URL は `.env` の `SLACK_WEBHOOK_URL` に設定）
-- **GitHub**: Issue/PR 検索時の assignee
+- **GitHub**: Issue/PR 検索時の assignee および対象リポジトリ
 
 ## コマンド一覧
 

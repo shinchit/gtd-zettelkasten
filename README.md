@@ -7,7 +7,7 @@ A productivity system combining GTD (Getting Things Done) and Zettelkasten note-
 ## Install
 
 ```
-/plugin marketplace add <repo-url>
+/plugin marketplace add https://github.com/shinchit/gtd-zettelkasten.git
 /plugin install gz@gz
 ```
 
@@ -32,7 +32,7 @@ Edit `.claude/config.local.md` to configure:
 
 - **Calendar**: gcalcli path and calendar names for `/gz:morning`
 - **Slack**: Enable/disable notifications (set `SLACK_WEBHOOK_URL` in `.env`)
-- **GitHub**: Assignee for issue/PR queries
+- **GitHub**: Assignee and target repositories for issue/PR queries
 
 ## Commands
 
