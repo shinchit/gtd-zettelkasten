@@ -1,5 +1,7 @@
 # GTD + Zettelkasten for Claude Code
 
+[日本語版はこちら](./README.ja.md)
+
 A productivity system combining GTD (Getting Things Done) and Zettelkasten note-taking, implemented as a Claude Code plugin. Manage tasks, build knowledge, and plan your day — all from the CLI.
 
 ## Install
