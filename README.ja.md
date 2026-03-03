@@ -129,6 +129,10 @@ author: "著者名"
 | [jq](https://jqlang.github.io/jq/) | Slack 通知の JSON 生成 | Slack 使用時 |
 | [Playwright](https://playwright.dev/) | JS レンダリングが必要な URL 取得 | 任意 |
 
+## 謝辞
+
+本プラグインは、Classmethod の shinchi.takahiro による記事「[「考える」から「判断する」へ、Claude Codeを中心に置いたタスク・ナレッジ管理](https://dev.classmethod.jp/articles/ai-driven-gtd-zettelkasten/)」に着想を得ています。Claude Code を活用した GTD + Zettelkasten の実践手法を詳しく解説した同記事が、このプラグインの基盤となりました。
+
 ## ライセンス
 
 MIT
