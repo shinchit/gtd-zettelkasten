@@ -131,6 +131,7 @@ period_end: 2024-01-30
 | `/gz:morning` | Daily log generation + action plan |
 | `/gz:zettel` | Co-create permanent notes with bidirectional links |
 | `/gz:research` | Create literature notes from URL/topic |
+| `/gz:daily-log` | End-of-day reflection and task completion |
 | `/gz:review` | Weekly review (system health check) |
 | `/gz:insights` | Analyze daily log trends and patterns |
 | `/gz:commit` | Git commit & push |

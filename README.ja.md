@@ -40,6 +40,7 @@ init コマンドで Vault を初期セットアップします:
 | `/gz:capture <メモ or URL>` | Inbox にアイテムを素早くキャプチャ |
 | `/gz:inbox` | Inbox アイテムを GTD 意思決定ツリーで振り分け |
 | `/gz:morning` | 日報生成 + カレンダー + GitHub + アクションプラン |
+| `/gz:daily-log` | 終業時の振り返り + タスク完了確認 + Three Good Things |
 | `/gz:zettel [トピック]` | 永続ノートの共同作成（双方向リンク付き） |
 | `/gz:research <URL or トピック>` | URL/トピックから文献ノート作成 |
 | `/gz:review` | 週次レビュー（システム全体の健全性チェック） |
@@ -53,7 +54,8 @@ init コマンドで Vault を初期セットアップします:
 1. `/gz:morning` — 日報生成、スケジュール確認、アクションプラン提案
 2. `/gz:capture` — 日中のアイデアやタスクをキャプチャ
 3. `/gz:inbox` — 時間のあるときに Inbox を処理
-4. `/gz:commit` — 1日の終わりに変更をコミット
+4. `/gz:daily-log` — 終業時の振り返り、タスク完了・繰り越し確認、Three Good Things
+5. `/gz:commit` — 1日の終わりに変更をコミット
 
 ### 毎週
 

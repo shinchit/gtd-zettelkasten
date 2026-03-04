@@ -42,6 +42,7 @@ Edit `.claude/config.local.md` to configure:
 | `/gz:capture <memo or URL>` | Quick capture to Inbox |
 | `/gz:inbox` | Process Inbox items via GTD decision tree |
 | `/gz:morning` | Daily log + calendar + GitHub + action plan |
+| `/gz:daily-log` | End-of-day reflection + task completion + Three Good Things |
 | `/gz:zettel [topic]` | Co-create permanent notes with bidirectional links |
 | `/gz:research <URL or topic>` | Create literature notes from research |
 | `/gz:review` | Weekly review — full system health check |
@@ -55,7 +56,8 @@ Edit `.claude/config.local.md` to configure:
 1. `/gz:morning` — Generate daily log, review schedule, plan actions
 2. `/gz:capture` — Capture ideas and tasks throughout the day
 3. `/gz:inbox` — Process inbox when you have time
-4. `/gz:commit` — Commit changes at end of day
+4. `/gz:daily-log` — End-of-day reflection, mark tasks done, Three Good Things
+5. `/gz:commit` — Commit changes at end of day
 
 ### Weekly
 
