@@ -49,25 +49,104 @@ Edit `.claude/config.local.md` to configure:
 | `/gz:insights [days]` | Analyze daily log trends (energy, tasks, patterns) |
 | `/gz:commit` | Git commit & push with auto-generated message |
 
-## Workflow
+## Recommended Daily Workflow
 
-### Daily
+### Morning (5-10 min)
 
-1. `/gz:morning` — Generate daily log, review schedule, plan actions
-2. `/gz:capture` — Capture ideas and tasks throughout the day
-3. `/gz:inbox` — Process inbox when you have time
-4. `/gz:daily-log` — End-of-day reflection, mark tasks done, Three Good Things
-5. `/gz:commit` — Commit changes at end of day
+```
+/gz:morning
+```
 
-### Weekly
+Start your day here. This single command:
+- Creates a **daily log** with today's date
+- Writes a **morning page** — free-form thoughts to clear your mind
+- Pulls your **calendar** (via gcalcli) and **GitHub** issues/PRs
+- Scans your **Next Actions** and suggests a prioritized action plan
+- Identifies **gaps in your schedule** for deep work
 
-1. `/gz:review` — Comprehensive review of all GTD lists and Zettelkasten health
-2. `/gz:insights` — Analyze trends in energy, tasks, and patterns over time
+The morning page is private and never analyzed by other commands. Use it to dump whatever is on your mind — worries, ideas, plans, complaints. This mental offloading helps you focus for the rest of the day.
 
-### As Needed
+### During the Day
 
-- `/gz:research` — Research a topic or URL, create literature notes
-- `/gz:zettel` — Develop permanent notes from your ideas and insights
+**Capture everything, decide nothing (yet).**
+
+```
+/gz:capture Buy new monitor for home office
+/gz:capture https://interesting-article.com
+```
+
+Whenever a thought, task, or URL comes to mind, capture it immediately. Don't stop to categorize — just get it out of your head and into the Inbox. This is the core GTD principle: your brain is for having ideas, not holding them.
+
+**Process when you have a break.**
+
+```
+/gz:inbox
+```
+
+When you have 10-15 minutes between tasks, process your Inbox. Each item goes through the GTD decision tree:
+- **Actionable?** → Next Action or Project
+- **2-minute rule** → Do it now, then delete
+- **Not actionable** → Reference, Someday/Maybe, or Trash
+
+**Turn insights into knowledge.**
+
+```
+/gz:zettel
+/gz:research https://some-article.com
+```
+
+Had an interesting realization during work? Use `/gz:zettel` to write it as a permanent note in your own words, with links to related ideas. Found a useful article? `/gz:research` creates a structured literature note.
+
+### End of Day (5 min)
+
+```
+/gz:daily-log
+```
+
+Close your day with a quick reflection:
+1. **Task review** — Mark each recommended action as done, carry over, delete, or move to Someday
+2. **Three Good Things** — Name 3 positive moments from today (builds gratitude habit)
+3. **Notes** — Any observations or learnings
+4. **Tomorrow** — What do you want to tackle first? (feeds into tomorrow's `/gz:morning`)
+5. **Rating** — Rate your day 1-5
+
+Completed tasks automatically move from `next-actions/items/` to `next-actions/done/`, preserving your history.
+
+```
+/gz:commit
+```
+
+Commit and push everything. Your entire productivity system is version-controlled.
+
+### Weekly (20-30 min)
+
+Pick a consistent day (e.g., Friday afternoon or Sunday evening).
+
+```
+/gz:review
+```
+
+The weekly review walks you through every part of your system:
+- **Inbox** — Any stragglers?
+- **Projects** — Still active? Have next actions? Stalled?
+- **Next Actions** — Overdue? Still relevant?
+- **Waiting-for** — Need to follow up?
+- **Someday/Maybe** — Time to promote anything?
+- **Zettelkasten** — Orphan notes? Missing backlinks?
+
+```
+/gz:insights
+```
+
+After a few weeks of daily logs, this gets really valuable. See your energy trends, find your best/worst days, spot carry-over tasks that need to be broken down or dropped.
+
+### Tips
+
+- **Morning page honesty** — Nobody reads it but you. The more honest, the more useful.
+- **Capture liberally, process ruthlessly** — Low friction in, high standards out.
+- **One next action per project** — If a project has no next action, it's stalled. The weekly review catches this.
+- **Energy-aware scheduling** — `/gz:morning` considers your energy level when suggesting actions. Be honest about it.
+- **Let insights accumulate** — `/gz:insights` becomes more powerful over time. The patterns it surfaces (e.g., "low energy every Wednesday") can change how you structure your week.
 
 ## Directory Structure
 
