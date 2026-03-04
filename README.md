@@ -45,6 +45,7 @@ Edit `.claude/config.local.md` to configure:
 | `/gz:zettel [topic]` | Co-create permanent notes with bidirectional links |
 | `/gz:research <URL or topic>` | Create literature notes from research |
 | `/gz:review` | Weekly review — full system health check |
+| `/gz:insights [days]` | Analyze daily log trends (energy, tasks, patterns) |
 | `/gz:commit` | Git commit & push with auto-generated message |
 
 ## Workflow
@@ -59,6 +60,7 @@ Edit `.claude/config.local.md` to configure:
 ### Weekly
 
 1. `/gz:review` — Comprehensive review of all GTD lists and Zettelkasten health
+2. `/gz:insights` — Analyze trends in energy, tasks, and patterns over time
 
 ### As Needed
 

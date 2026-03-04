@@ -104,6 +104,15 @@ date: 2024-01-01
 type: weekly-review
 date: 2024-01-01
 ---
+
+# insights
+---
+type: insights
+date: 2024-01-01
+period: 30
+period_start: 2024-01-01
+period_end: 2024-01-30
+---
 ```
 
 ## Link Conventions
@@ -123,4 +132,5 @@ date: 2024-01-01
 | `/gz:zettel` | Co-create permanent notes with bidirectional links |
 | `/gz:research` | Create literature notes from URL/topic |
 | `/gz:review` | Weekly review (system health check) |
+| `/gz:insights` | Analyze daily log trends and patterns |
 | `/gz:commit` | Git commit & push |
